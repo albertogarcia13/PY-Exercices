@@ -1,6 +1,6 @@
 import urllib.request
 
-fp = urllib.request.urlopen("https://www.google.com")
+fp = urllib.request.urlopen("https://www.fhios.es")
 mybytes = fp.read()
 
 mystr = mybytes.decode("utf8")
